@@ -1,3 +1,62 @@
 body{
     background-color: #283747;
 }
+
+#header-section{
+    display: flex;
+}
+.header-div{
+    width: 50%;
+    
+}
+
+.header-div h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: rgb(236, 115, 68);
+    margin: 5px;
+    padding: 20px;
+}
+
+.header-div h3{
+
+    margin: 5px;
+    padding: 20px;
+    font-size: 28px;
+    color: rgba(209, 138, 6, 0.966);
+}
+.diff_fnt{
+    color: rgba(175, 172, 4, 0.945);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.header-div p{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(245, 231, 205);
+    font-size: 28px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.header-div a{
+    target: _blank;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: ;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(0, 255, 136, 0.925),rgba(0, 174, 255, 0.781));
+}
+
+.header-div img{
+    height: 450px;
+    width: 450px;
+    border-radius: 250px;
+    float: right;
+    margin: 50px 250px 20px 10px;
+    
+}
