@@ -14,45 +14,47 @@ body {
     font-family: "Dancing Script", cursive;
     font-size: 50px;
     color: rgb(236, 115, 68);
-    margin: 5px;
-    padding: 20px;
+    margin-left: 10%;
+    text-align: center; 
 }
 
 .header-div h3 {
     font-family: "Lobster", cursive;
-    margin: 5px;
+    margin-left: 8%;
     padding: 20px;
     font-size: 25px;
-    font-weight: 200;
-    color: rgba(209, 138, 6, 0.966);
+    font-weight: 100;
+    color:  rgb(245, 231, 205);
 }
 .diff_fnt {
     color: rgba(175, 172, 4, 0.945);
     font-family: "Dancing Script", cursive;
     font-size: 40px;
+    
 }
 
 .header-div p {
     font-family: "Indie Flower", cursive;
     color: rgb(245, 231, 205);
     font-size: 25px;
-    margin: 5px;
+    margin-left: 8%;
     padding: 20px;
+    text-align: justify;
 }
 
 .header-div a {
     target: _blank;
     text-decoration: none;
     font-family: "Indie Flower", cursive;
-    color: ;
-    font-weight: 700;
+    color:black;
+    font-weight: 800;
     font-size: 20px;
-    margin: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
     padding: 10px;
     border-radius: 30px;
     background-image: linear-gradient(
-        rgba(0, 255, 136, 0.925),
-        rgba(0, 174, 255, 0.781)
+        rgb(236, 115, 68), orange
     );
 }
 
@@ -61,7 +63,7 @@ body {
     width: 450px;
     border-radius: 250px;
     float: right;
-    margin: 50px 250px 20px 10px;
+    margin: 20%;
 }
 
 .mid_div {
@@ -70,16 +72,15 @@ body {
 
 #mid_sec {
     display: flex;
-    background-image: url("/im/7.png");
+    background-image: url("/im/dark-blue.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 150px;
 }
 
 .mid_div img {
-    margin-left: 30px;
+    margin-left: 1px;
     border-radius: 20px;
-    margin-right: 2%;
 }
 
 .mid_div p {
@@ -87,8 +88,10 @@ body {
     color: rgb(245, 231, 205);
     font-size: 22px;
     text-align: justify;
-    padding-right: 20px;
-    padding-left: 18%;
+    padding-right: 2%;
+    padding-left: 12%;
+    margin-bottom: 8%;
+    margin-right: 5%;
 }
 
 .mid_div a {
@@ -97,14 +100,13 @@ body {
     font-family: "Indie Flower", cursive;
     align-content: center;
     margin-left: 18%;
+    color: black;
     font-weight: 700;
     font-size: 20px;
     border-radius: 20px;
     padding: 10px;
-
     background-image: linear-gradient(
-        rgba(0, 255, 136, 0.925),
-        rgba(0, 174, 255, 0.781)
+        rgb(236, 115, 68), orange
     );
 }
 .mid_div h1 {
@@ -126,6 +128,7 @@ body {
 
 .flexible-class {
     display: flex;
+    margin-top: 5%;
 }
 .box {
     width: 30%;
