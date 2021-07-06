@@ -49,7 +49,7 @@ body {
     color:black;
     font-weight: 800;
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 50%;
     margin-top: 5%;
     padding: 10px;
     border-radius: 30px;
@@ -99,7 +99,7 @@ body {
     text-decoration: none;
     font-family: "Indie Flower", cursive;
     align-content: center;
-    margin-left: 18%;
+    margin-left: 50%;
     color: black;
     font-weight: 700;
     font-size: 20px;
@@ -114,7 +114,7 @@ body {
     font-size: 50px;
     color: rgb(236, 115, 68);
     padding-top: 30px;
-    padding-left: 18%;
+    padding-left: 45%;
 }
 
 #food_pic {
