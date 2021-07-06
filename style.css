@@ -79,6 +79,7 @@ body {
 .mid_div img {
     margin-left: 30px;
     border-radius: 20px;
+    margin-right: 2%;
 }
 
 .mid_div p {
@@ -87,7 +88,7 @@ body {
     font-size: 22px;
     text-align: justify;
     padding-right: 20px;
-    padding-left: 70px;
+    padding-left: 18%;
 }
 
 .mid_div a {
@@ -95,7 +96,7 @@ body {
     text-decoration: none;
     font-family: "Indie Flower", cursive;
     align-content: center;
-    margin-left: 90px;
+    margin-left: 18%;
     font-weight: 700;
     font-size: 20px;
     border-radius: 20px;
@@ -111,7 +112,7 @@ body {
     font-size: 50px;
     color: rgb(236, 115, 68);
     padding-top: 30px;
-    padding-left: 200px;
+    padding-left: 18%;
 }
 
 #food_pic {
