@@ -1,9 +1,11 @@
+
 body{
     background-color: #283747;
 }
 
 #header-section{
     display: flex;
+    margin-bottom: 150px;
 }
 .header-div{
     width: 50%;
@@ -46,7 +48,7 @@ body{
     color: ;
     font-weight: 700;
     font-size: 20px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border-radius: 30px;
     background-image: linear-gradient(rgba(0, 255, 136, 0.925),rgba(0, 174, 255, 0.781));
@@ -59,4 +61,64 @@ body{
     float: right;
     margin: 50px 250px 20px 10px;
     
+}
+
+
+.mid_div{
+    width: 50%;
+}
+
+#mid_sec{
+    display: flex;
+    background-image: url('/im/7.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 150px;
+    
+}
+
+.mid_div img{
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.mid_div p{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(245, 231, 205);
+    font-size: 28px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 70px;
+    
+}
+
+.mid_div a{
+    target: _blank;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    align-content: center;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+
+    background-image: linear-gradient(rgba(0, 255, 136, 0.925),rgba(0, 174, 255, 0.781));
+}
+.mid_div h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: rgb(236, 115, 68);
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+
+#food_pic {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 600px;
+    align-items: center;
 }
